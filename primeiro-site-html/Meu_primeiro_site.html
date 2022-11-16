@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao HTML</title>
+</head>
+<body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2 id="inicio">Índice</h2>
+      <ul>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#lista">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
+    </ul>
+
+    <h2 id="historia">História dos computadores <small><a href="#inicio">(Voltar)</a></small></h2>
+    <p>A história da computação é extensa e está diretamente relacionada ao desenvolvimento da humanidade. Há relatos de 5.000 anos a.C. indicando o que seriam ferramentas que facilitavam a vida das pessoas. No início diretamente relacionadas a operações simples como adições e subtrações e posteriormente a operações mais complexas como o desenvolvimento da comunicação, como o telégrafo.</p>
+    <p>O salto para o desenvolvimento tecnológico ocorreu efetivamente no século XX, com o surgimento dos primeiros computadores, que a época eram máquinas colossais, do tamanho de uma sala inteira, sem portabilidade e com funções limitadas, como o Mark I (1944), Colossus (1946) e o ENIAC (1946). É possível observar que as pesquisas e  o desenvolvimento aumentaram substancialmente nos períodos de guerras da humanidade, “aumentando” as vantagens sobre os inimigos.</p>
+    <p>Existem 4 gerações de computadores, diferenciando-se os avanços tecnológicos. A primeira geração iniciando-se em meados de 1940, a segunda em 1960, a terceira em 1965 e a quarta em 1971, persistindo até os dias atuais. </p>
+    <p>A humanidade evoluiu, buscando formas mais eficientes de comunicação e na década de 1960 foi observado o primeiro embrião do que futuramente seria a “internet”. A princípio, a comunicação era algo fundamental a segurança nacional, sendo utilizada em larga escala pelos militares e forças de defesa nos Estados Unidos. </p>
+    <p>Em 1989, Tim Berners-Lee viu a oportunidade de unir as tecnologias existentes a época (Hipertexto e o protocolo TCP/IP) e criar a World Wide Web, criando o primeiro navegador, o qual possuía o mesmo nome, tornando a internet acessível a população em geral. As pessoas podiam ler e criar conteúdo com o HTML. Isso revolucionou o conceito da comunicação e com o tempo foram surgindo aprimoramentos, tanto nos dispositivos (hardwares), quanto nos programas (softwares), gerando a possibilidade de estilizações, animações e funcionalidades, até os dias atuais.</p>
+
+    <h2 id="clients">O que são <i>Clients</i>? <small><a href="#inicio">(Voltar)</a></small></h2>
+    <p>Client ou "Cliente" no português, quando relacionado a computação refere-se a uma entidade que consome os serviços de uma outra unidade servidora, através do uso de uma rede de computadores, numa arquitetura cliente-servidor. Geralmente as duas unidades encontram-se em computadores distintos, contudo, podem compartilhar a mesma unidade.</p>
+    <p>O Modelo client-server é fundamental na arquitetura computacional, pois através dele aplicamos as relações de programas em uma aplicação.</p>
+    <p>O client geralmente solicita e recebe dados e informações.</p>
+    <p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Cliente-Servidor.png" alt="Arquitetura Cliente-Servidor">
+    </p>
+    <p>
+         <ul>
+            <h4>Características do client:</h4>
+            <li>Inicia pedidos para servidores;</li>
+            <li>Espera por respostas;</li>
+            <li>Recebe respostas;</li>
+            <li>Conecta-se a um pequeno número de servidores de uma só vez;</li>
+            <li>Normalmente interage diretamente com os servidores através de seu software aplicação especifico, que lhe possibilita a comunicação com o servidor;</li>
+            <li>Utiliza recursos da rede.</li>
+
+         </ul>
+    </p>
+
+    <h2 id="servers">O que são <i>Servers</i>? <small><a href="#inicio">(Voltar)</a></small></h2>
+    <p> Os servers ou "servidores" como o próprio nome sugere "serve" dados e informações ao client. Esta unidade será a responsável por hospedar os sites e aplicações web.</p>
+    <p>O servidor pode funcionar sozinho ou trabalhar em conjunto com um banco de dados para trabalhar com diferentes tipos de dados e funções.</p>
+    <p>Há diversos tipos de servidores com função de segurança, email, banco de dados, etc.</p>
+    <p>
+      <ul>
+         <h4>Características do server:</h4>
+         <li>Sempre espera por um pedido de um cliente;</li>
+         <li>Atende os pedidos e, em seguida, responde aos clientes com os dados solicitados;</li>
+         <li>Podem se conectar com outros servidores para atender uma solicitação específica do cliente; jamais podem se comunicar;</li>
+         <li>Fornece recursos de rede;</li>
+         <li>Normalmente interage diretamente com os usuários finais através de qualquer interface com o usuário;</li>
+         <li>Estrutura o sistema.</li>
+
+      </ul>
+ </p>
+
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML? <small><a href="#inicio">(Voltar)</a></small></h2>
+    <p>O HTML é uma linguagem de marcação de hipertexto, utilizada em larga escala nos sites presentes na internet, constituindo parte fundamental da estrutura básica dos sites. Pode-se afirmar que esta linguagem define o significado e estrutura da web, onde normalmente encontra-se associada a outras ferramentas que alteram a estilização e o comportamento das páginas web.</p>
+    <p>A marcação a que se refere o nome dado a esta tecnologia decorre dos elementos utilizados na confecção das estruturas, que são representados por “tags”. Toda tag possui sinal de maior e sinal de menor, com uma palavra dentro dela, podendo ou não possuir tag de fechamento.</p>
+    <p>O HTML divide-se basicamente em head (cabeçalho) e body (corpo do texto), onde o que permanece no cabeçalho não fica exposto de forma direta e o que o client vê e interage diretamente é tudo que está no body.</p>
+    <p>Cada tag dentro do HTML apresenta uma função específica, como demonstrar que o texto dentro daquela tag se refere a um título, um parágrafo, o nome da aba presente no navegador, itálico, sublinhado, etc.</p>
+    <p>Os atributos são propriedades que as tags possuem, podendo ser globais e mais genéricos (aplicáveis a maioria) ou específicos de determinada tag, o que pode gerar novas funcionalidades a tag HTML.</p>
+    <p>
+      <ul>
+        <h4>Alguns exemplos de tags HTML são: </h4>
+        <li>H1 a H6 – Definem o destaque dado aos títulos na página;</li>
+        <li>P – Insere um parágrafo no texto;</li>
+        <li>Ol – Inicia uma lista ordenada (numérica);</li>
+        <li>Ul – Inicia uma lista não ordenada (itens)</li>
+      </ul>
+    </p>
+
+    <h2 id="lista">Entendendo a diferença entre listas ordenadas e não ordenadas <small><a href="#inicio">(Voltar)</a></small></h2>
+    <p>O HTML trabalha basicamente com dois tipos de listas, as ordenadas e as não ordenadas.</p>
+    <p>As listas ordenadas são aquelas onde os itens seguem uma sequência numérica, onde os tópicos são precedidos por números, sua tag HTML é escrita - "ol" </p>
+    <p>As listas não ordenadas não seguem uma sequência, apresentando itens, figuras, objetos, etc, que identifiquem que ela seja um tópico, sua tag HTML é escrita - "ul" </p>
+    <p>Ambos os modelos de lista podem ter seus tópicos editados e alterados via CSS, gerando diversos novos modelos para utilização.</p>
+    <p>Uma observação pertinente é que as listas possuem a peculiaridade de ser necessário indicar que o texto inserido é um item da lista, por isso, utiliza-se a tag "li"("list item") iniciando e terminando a tag, com o texto do item ao centro.</p>
+
+
+    <h2 id="referencias">Links de referências <small><a href="#inicio">(Voltar)</a></small></h2>
+    <ul>
+        <li><a href="http://dio.me" title="Clique aqui e confira" target="_blank">Dio.me</a></li>
+        <li><a href="https://www.w3schools.com/" title="Clique aqui e confira" target="_blank">W3 Schools</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" title="Clique aqui e confira" target="_blank">Mozilla Developer Network</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Modelo_cliente%E2%80%93servidor" title="Clique aqui e confira" target="_blank"> Modelo Cliente Servidor</a></li>
+    </ul>
+</body>
+</html>
